@@ -12,6 +12,41 @@
         { "open": "{", "close": "}" },
         { "open": "[", "close": "]" },
         { "open": "(", "close": ")" },
-        { "open": "\"", "close": "\"" }
-    ]
+        { "open": "\"", "close": "\"" },
+        { "open": "'", "close": "'" }
+    ],
+    "surroundingPairs": [
+        { "open": "\"", "close": "\"" },
+        { "open": "'", "close": "'" },
+        { "open": "{", "close": "}" },
+        { "open": "[", "close": "]" }
+    ],
+    "indentationRules": {
+        "increase": [
+            { "open": "{", "close": "}" },
+            { "open": "[", "close": "]" },
+            { "open": "(", "close": ")" }
+        ],
+        "decrease": [
+            { "open": "}", "close": "{" },
+            { "open": "]", "close": "[" },
+            { "open": ")", "close": "(" }
+        ]
+    },
+    "onEnterRules": [
+       {
+            "beforeText": "^\\s*\\w+\\s*:$",
+            "action": {
+                "indent": "indent",
+                "indentAction": "indent",
+                "appendText": "    "
+            }
+        }
+    ],
+    "folding": {
+        "markers": {
+            "start": "^\\s*//\\s*#region\\b",
+            "end": "^\\s*//\\s*#endregion\\b"
+        }
+    }
 }

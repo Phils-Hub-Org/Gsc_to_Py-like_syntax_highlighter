@@ -17,28 +17,22 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "phil81334-ph-gsc.helloWorld",
-        "title": "Hello World"
-      }
-    ],
     "languages": [
-      {
-        "id": "ph_gsc",
-        "aliases": ["PH-GSC", "ph_gsc"],
-        "extensions": [".ph_gsc"],
-        "configuration": "./language-configuration.json"
-      }
+        {
+            "id": "ph_gsc",
+            "aliases": ["PH-GSC", "ph_gsc"],
+            "extensions": [".ph_gsc"],
+            "configuration": "./language-configuration.json"
+        }
     ],
     "grammars": [
-      {
-        "language": "ph_gsc",
-        "scopeName": "source.ph_gsc",
-        "path": "./syntaxes/ph_gsc.tmLanguage.json"
-      }
+        {
+            "language": "ph_gsc",
+            "scopeName": "source.ph_gsc",
+            "path": "./syntaxes/ph_gsc.tmLanguage.json"
+        }
     ]
-  },
+},
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",

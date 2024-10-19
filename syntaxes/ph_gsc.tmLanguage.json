@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json.schemastore.org/grammar",
+    "$schema": "https://json.schemastore.org/bower.json",
     "scopeName": "source.ph_gsc",
     "patterns": [
         {
@@ -7,16 +7,44 @@
             "match": "#include\\s+\\w+"
         },
         {
+            "name": "keyword.ph_gsc",
+            "match": "\\b(if|else|while|for|switch|case|break|continue|return|true|false|undefined|include|level|self|thread)\\b"
+        },
+        {
             "name": "comment.line.ph_gsc",
             "begin": "//",
             "end": "$"
         },
         {
+            "name": "comment.block.ph_gsc",
+            "begin": "/\\*",
+            "end": "\\*/"
+        },
+        {
             "name": "string.quoted.double.ph_gsc",
             "begin": "\"",
             "end": "\""
+        },
+        {
+            "name": "variable.ph_gsc",
+            "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+        },
+        {
+            "name": "function.ph_gsc",
+            "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*\\("
+        },
+        {
+            "name": "parameter.ph_gsc",
+            "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*(,\\s*|\\s*:\\s*|\\s*=>\\s*)?([\\w\\s,]*)"
+        },
+        {
+            "name": "number.ph_gsc",
+            "match": "\\b\\d+(\\.\\d+)?\\b"
+        },
+        {
+            "name": "operator.ph_gsc",
+            "match": "[+\\-*/=<>!&|^%]+"
         }
     ],
-    "repository": {},
-    "scopeName": "source.ph_gsc"
+    "repository": {}
 }

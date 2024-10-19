@@ -1,7 +1,19 @@
-{
-    [
-        (
-            // Sweet!
-        )
-    ]
+#include maps\_utility;
+
+// this is a single-line comment
+
+/*
+    this is a multi-line comment
+*/
+
+myFunc (1, 2, 3) {
+    arr = [];
+
+    for (i = 0; i < 10; i++) {
+        arr.push(i);
+
+        if (i == 5) {
+            break;
+        }
+    }
 }
