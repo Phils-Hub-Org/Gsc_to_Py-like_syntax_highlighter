@@ -1,8 +1,8 @@
 {
   "name": "phil81334-ph-gsc",
-  "displayName": "PH-GSC Syntax Highlighter",
+  "displayName": "PH-GSC Custom Syntax Highlighter",
   "description": "\"Syntax highlighter for .ph_gsc files, enhancing code readability for GSC-to-Python-like syntax conversions.\"",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Phil81334",
   "repository": {
     "type": "git",

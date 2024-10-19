@@ -1,0 +1,3 @@
+rm phil81334-ph-gsc-0.0.1.vsix
+npm run compile
+vsce package
