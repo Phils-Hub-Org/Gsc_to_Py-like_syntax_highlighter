@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/grammar",
+    "scopeName": "source.ph_gsc",
+    "patterns": [
+        {
+            "name": "keyword.include.ph_gsc",
+            "match": "#include\\s+\\w+"
+        },
+        {
+            "name": "comment.line.ph_gsc",
+            "begin": "//",
+            "end": "$"
+        },
+        {
+            "name": "string.quoted.double.ph_gsc",
+            "begin": "\"",
+            "end": "\""
+        }
+    ],
+    "repository": {},
+    "scopeName": "source.ph_gsc"
+}

@@ -3,6 +3,11 @@
   "displayName": "PH-GSC Syntax Highlighter",
   "description": "\"Syntax highlighter for .ph_gsc files, enhancing code readability for GSC-to-Python-like syntax conversions.\"",
   "version": "0.0.1",
+  "publisher": "Phil81334",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phils-Hub-Org/Gsc_to_Py-like_syntax_highlighter.git"
+  },
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -16,6 +21,21 @@
       {
         "command": "phil81334-ph-gsc.helloWorld",
         "title": "Hello World"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ph_gsc",
+        "aliases": ["PH-GSC", "ph_gsc"],
+        "extensions": [".ph_gsc"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ph_gsc",
+        "scopeName": "source.ph_gsc",
+        "path": "./syntaxes/ph_gsc.tmLanguage.json"
       }
     ]
   },

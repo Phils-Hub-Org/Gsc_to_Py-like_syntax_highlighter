@@ -1,71 +1,69 @@
 # phil81334-ph-gsc README
 
-This is the README for your extension "phil81334-ph-gsc". After writing up a brief description, we recommend including the following sections.
+Welcome to the README for the **phil81334-ph-gsc** extension! This extension provides custom syntax highlighting and features for [your programming language or purpose]. Below you'll find details about its features, requirements, settings, and more.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Custom Syntax Highlighting**: Enjoy tailored syntax highlighting for your code, making it easier to read and understand.
+  
+  ![feature X](images/feature-x.png)  <!-- Replace with actual image paths and descriptions -->
 
-For example if there is an image subfolder under your extension project workspace:
+- **Code Snippets**: Utilize pre-defined snippets to speed up your coding process.
+  
+- **Error Detection**: Identify common coding errors with built-in linting features.
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+> Tip: Consider adding animations or additional images to showcase how your extension enhances the coding experience!
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- **Visual Studio Code**: Ensure you are using the latest version of VS Code for optimal performance.
+- **Node.js**: This extension may require Node.js if it depends on certain packages.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
 This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- `phil81334-ph-gsc.enable`: Enable or disable the extension.
+- `phil81334-ph-gsc.theme`: Choose between various themes for syntax highlighting.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- **Issue #1**: Describe the known issue here, including any workarounds if available.
+- **Issue #2**: Another known issue description.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Users appreciate clear release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
+- Initial release of **phil81334-ph-gsc** with custom syntax highlighting and basic features.
 
 ### 1.0.1
 
-Fixed issue #.
+- Fixed issue with syntax highlighting not applying correctly.
 
 ### 1.1.0
 
-Added features X, Y, and Z.
+- Added support for additional language features and improved error detection.
 
 ---
 
-## Following extension guidelines
+## Following Extension Guidelines
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+Ensure that you've read through the [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines) and follow the best practices for creating your extension.
 
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
+- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
+- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
-## For more information
+## For More Information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy using phil81334-ph-gsc!**
